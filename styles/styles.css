@@ -9,15 +9,15 @@ body {
 
 .header {
   background: rgba(229, 84, 115, 0.1);
-  width: 1900px;
-  height: 800px;
+  width: 1300px;
+  height: 530px;
 }
 
 /* banner related styles */
 
 .banner {
   display: flex;
-  padding: 50px 240px 0px 240px;
+  padding: 30px 200px 0px 200px;
   align-items: center;
   justify-content: space-between;
 }
@@ -26,18 +26,22 @@ body {
   width: 500px;
   height: 10%;
   margin-bottom: 30px;
+  /* gap: 90; */
+  justify-content: space-between;
 }
 
 .banner-picture {
-  width: 600px;
-  height: 750px;
+  width: 350px;
+  height: 470px;
   flex-shrink: 0;
+  margin: 30px 240px 0px 90px;
 }
 
 .banner-quote {
   color: #272727;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 800;
+  width: 500px;
   height: 50%;
 }
 
@@ -45,10 +49,95 @@ body {
   color: rgba(39, 39, 39, 0.6);
   font-size: 12px;
   font-weight: 400;
+  width: 450px;
 }
 
 .btn-primary {
   padding: 10px 25px;
+}
+
+/* Deal Section-03 Related Styles */
+
+.deal-section-03 {
+  display: flex;
+  padding: 100px 200px 200px 100px;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  margin: 128px 0px;
+  width: 1000px;
+  height: 300px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.deal-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 190;
+}
+
+.deal-items {
+  text-align: center;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.deal-description {
+  display: flex;
+  width: 594px;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.btn-primary {
+  display: inline-flex;
+  padding: 10px 25px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  background: #e55473;
+}
+
+/* insta-section-04 Related Styles */
+
+.insta-section-04 {
+  margin: 128px 240px 128px 240px;
+}
+
+.insta-content {
+  text-align: center;
+}
+
+.insta-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.insta-pics{
+  display:flex;
+  /* width: 10%; */
+  margin: 48px 100px 128px 50;
+}
+
+.insta-pic-01, .insta-pic-02, .insta-pic-03,.insta-pic-04{
+  width: 50%;
+}
+
+/* form-section Related Styles */
+
+.form-section-05{
+  margin: 128px 240px;
 }
 
 /* Footer Section Related Styles */
@@ -63,7 +152,6 @@ footer {
 
 .footer-content {
   text-align: center;
-  
 }
 
 .footer-title {
