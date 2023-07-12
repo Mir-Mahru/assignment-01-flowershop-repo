@@ -47,7 +47,46 @@ body {
   font-weight: 400;
 }
 
-.btn-primary{
-    padding: 10px 25px; 
+.btn-primary {
+  padding: 10px 25px;
 }
 
+/* Footer Section Related Styles */
+
+footer {
+  margin-top: 128px;
+  padding: 128px 650px;
+  width: 600px;
+  height: 350px;
+  background: #111010;
+}
+
+.footer-content {
+  text-align: center;
+  
+}
+
+.footer-title {
+  color: #e55473;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.shop {
+  color: white;
+}
+
+.footer-description {
+  width: 625px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 300px;
+  margin-bottom: 32px;
+}
+
+.footer-info {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 17px;
+  font-weight: 600;
+}
